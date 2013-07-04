@@ -28,7 +28,7 @@ class Kohana_Mailer
         self::include_library();
 
         $mail   = new PHPMailer();
-        $config = Kohana::config('mailer');
+        $config = Kohana::$config->load('mailer');
         $from   = $config->get( 'from' );
 
         if( $config->get( 'mode', 'mail' ) == 'smtp' ) {

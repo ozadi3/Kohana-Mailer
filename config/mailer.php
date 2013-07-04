@@ -6,15 +6,15 @@ return array(
 
     // SMTP settings
     'smtp' => array(
-        'host'      => 'smtp.gmail.com',
-        'port'      => 465,
-        'username'  => 'username@gmail.com',
-        'password'  => 'password',
+        'host'      => '',
+        'port'      => '',
+        'username'  => '',
+        'password'  => '',
     ),
 
     // Sender
     'from' => array(
         'mail' => 'no-reply@example.com',
-        'name' => 'Mailer module',
+        'name' => 'Example',
     ),
 );
